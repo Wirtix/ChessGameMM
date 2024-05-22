@@ -1,4 +1,12 @@
 # Chess Game
+## HOW TO USE:
+
+1.Download and Unzip
+
+2.pip install requirements.txt
+
+3.open Main.py with ur IDE and just run and play!
+
 ## Desc:
 This is game based on Checkers game from online tutorial. I decided to not use any library focused on chess and do moves by myself.
 This is the reason why code is so long but it shows my fundamental understanding of Python 
