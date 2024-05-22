@@ -4,7 +4,7 @@ import pygame
 RED = (255,0,0)
 WHITE = (255,255,255)
 
-# minimax alghoritm with alpha beta optimalization
+# minimax algorithm with an alpha beta optimization
 def minimax(position, depth, max_player, game,alpha, beta):
     if depth == 0 or position.winner() != None:
         return position.evaluate(max_player), position

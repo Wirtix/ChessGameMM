@@ -14,9 +14,9 @@ class Game:
         self.cords = ()
         self.score = False
 
-    def update(self):
+    def update(self):   
         self.board.draw(self.win)
-        # drukujemy na sobie więc wy wolujemy to :
+        # we are drawing 
         self.draw_valid_moves(self.valid_moves)
         self.draw_clicked(self.win, self.cords)
         self.score = self.board.score
@@ -31,7 +31,7 @@ class Game:
     def reset(self):
         self._init()
 
-    def select(self, row, col):
+    def select(self, row, col): # we select some piece and then show it valid moves
         self.cords = (0, 0)
         self.cords = (row, col)
         if self.selected:
@@ -50,7 +50,7 @@ class Game:
 
         return False
 
-    def click_sound(self, x=0):
+    def click_sound(self, x=0): # sound of clicking pieces
         mixer.init()
         if x == 1:
             sound1 = pygame.mixer.Sound("assets/click_sound.wav")

@@ -31,12 +31,14 @@ def intro():
     intro = True
     clock = pygame.time.Clock()
     game1 = Game(WIN)
+    #defining buttons on intro
     play_button = Button(250, 350, 300, 50, WHITE, BLACK, 'Play with AI', 32)
     easy_button = Button(300, 450, 50, 50, WHITE, BLACK, 'Easy', 20)
     mid_button = Button(370, 450, 50, 50, WHITE, BLACK, 'Mid', 20)
     hard_button = Button(440, 450, 50, 50, WHITE, BLACK, 'Hard', 20)
     single_player_button = Button(250, 290, 300, 50, WHITE, BLACK, 'Single Player', 32)
-    
+
+    #main intro loop
     while intro:
         global ai_level
         global tryb

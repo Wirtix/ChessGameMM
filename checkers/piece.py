@@ -93,7 +93,7 @@ class King(Piece):    #Król
         else:
             win.blit(WKING, (self.x - 40, self.y - 40))
 
-class Queen(Piece):    #Królowa
+class Queen(Piece):    #Dama
     def __init__(self, row, col, color):
         super().__init__(row, col, color)
         self.type = 'Queen'

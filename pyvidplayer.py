@@ -5,7 +5,7 @@ from ffpyplayer.tools import set_loglevel
 from pymediainfo import MediaInfo
 from errno import ENOENT
 
-""" T"""
+""" This is intro video which is not in the game for now"""
 class Video:
     def __init__(self, path):
         if not os.path.exists(path):

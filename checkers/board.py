@@ -9,6 +9,7 @@ I decided to build chess as continuation of checkers game so I used raw pygames
 without chess library. no moves like E2 to E3. Just moving for squares 
 in our printed board
 
+IMPORTANT RED == BLACK i have chenged color of pieces couse i have issue with finding one red
 '''
 
 class Board:
@@ -182,16 +183,15 @@ class Board:
     def check_mat(self, color):
         self.score = True
         if color == WHITE:
-            print('RED SSIE')
+            print('WHITE WON')
             return WHITE, self.score
         elif color == RED:
-            print('BIAŁY SSIE')
+            print('RED WON')
             return RED, self.score
 
 
 
 
-#algorytm sprawdzający możliwe ruchy:
 
     def check(self):
         king_list = self.get_king()
@@ -249,9 +249,9 @@ class Board:
         # białe ida w dół więc dodajemy a czerwone do góry
         if type == 'Piece' and not piece.king:
             if piece.color == RED or piece.king:
-                moves.update(self.pionek_traverse_forward(row, piece.color, front))
+                moves.update(self.piece_traverse_forward(row, piece.color, front))
             if piece.color == WHITE or piece.king:
-                moves.update(self.pionek_traverse_forward(row, piece.color, front))
+                moves.update(self.piece_traverse_forward(row, piece.color, front))
         if type == 'Rook':
              if piece.color == RED or piece.king:
                  moves.update(self.rook_traverse_forward(row, piece.color, front))
@@ -294,7 +294,7 @@ class Board:
         return moves
     
     # Here we have big section with every single move deffinition. Place to improve
-    def pionek_traverse_forward(self, start, color, front):
+    def piece_traverse_forward(self, start, color, front):
         moves = {}
 
         if color == WHITE:
