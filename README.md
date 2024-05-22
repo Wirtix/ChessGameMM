@@ -1,11 +1,11 @@
 # Chess Game
 ## HOW TO USE:
 
-1.Download and Unzip
+1. Download and Unzip
 
-2.pip install requirements.txt
+2. pip install requirements.txt
 
-3.open Main.py with ur IDE and just run and play!
+3. Open Main.py with ur IDE and just run and play!
 
 ## Desc:
 This is game based on Checkers game from online tutorial. I decided to not use any library focused on chess and do moves by myself.
