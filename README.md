@@ -1,22 +1,39 @@
-# Chess Game
-## HOW TO USE:
+<h1 align="center">♟️Chess Game! Python Project♟️</h1>
+<h3 align="center">Made with passion to coding </h3>
 
-1. Download and Unzip
-
-2. pip install requirements.txt
-
-3. Open Main.py with ur IDE and just run and play!
-
-## Desc:
-This is game based on Checkers game from online tutorial. I decided to not use any library focused on chess and do moves by myself.
+<h2>📄Project Description </h2>
+<p>This is chess game based on Checkers game from online tutorial. I decided to not use any library focused on chess and do moves by myself.
 This is the reason why code is so long but it shows my fundamental understanding of Python 
-I have used MiniMax algorithm with Alpha beta optimalization. 
+I have used MiniMax algorithm with Alpha beta optimalization. </p>
+<p> This is how it looks like :</p>
+<p>
+    <img src="https://github.com/Wirtix/ChessGameMM/assets/163426241/3a4387ab-f001-4fe2-9f84-9ed47dbd3747" width="720" />
+</p>
+<p>
+    <img src="https://github.com/Wirtix/ChessGameMM/assets/163426241/40328718-9ff4-4b9c-8d4b-9a9325f260a1" width="720" />
+</p>
 
-## Presentation of working game:
-We can select if we want to play by ourselfs or with AI alghoritm:
-![image](https://github.com/Wirtix/ChessGameMM/assets/163426241/3a4387ab-f001-4fe2-9f84-9ed47dbd3747)
 
-![image](https://github.com/Wirtix/ChessGameMM/assets/163426241/8e2c9aa9-46f7-44c4-b56c-92353cbc9734)
 
-There is also a Mate feature:
-![image](https://github.com/Wirtix/ChessGameMM/assets/163426241/40328718-9ff4-4b9c-8d4b-9a9325f260a1)
+<p><br></p>
+
+<h2>🔧 How to use it? </h2>
+
+   
+<p>-Download and unzip</p>
+<p>-Run cmd in project dir</p>
+<p>-pip install requirements.txt</p>
+<p>-run main.py file</p>
+<p>-BOOM🎉 .It works</p>
+
+<p><br></p>
+
+
+
+<h2 align="left">☎️Connect with me:</h2>
+<p><a href="https://www.linkedin.com/in/oskar-skutnik-082b35307/">Linkedin </a></p>
+<p align="left">
+</p>
+
+<h3 align="left">Languages and Tools:</h3>
+<p align="left"> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a></p>
